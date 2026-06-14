@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Mobile app rebuild concept">
+  <rect width="1200" height="675" fill="#f8f4ed"/>
+  <rect x="405" y="54" width="390" height="568" rx="54" fill="#17201d"/>
+  <rect x="435" y="94" width="330" height="488" rx="34" fill="#ffffff"/>
+  <circle cx="600" cy="178" r="62" fill="#7aa6b2"/>
+  <path d="M600 142v72M564 178h72" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <rect x="488" y="284" width="224" height="24" rx="8" fill="#24453a"/>
+  <rect x="488" y="334" width="178" height="18" rx="7" fill="#dfd6c8"/>
+  <rect x="488" y="374" width="224" height="18" rx="7" fill="#dfd6c8"/>
+  <rect x="488" y="446" width="224" height="58" rx="12" fill="#b2563d"/>
+  <circle cx="442" cy="142" r="70" fill="#d89b39" opacity=".35"/>
+  <circle cx="792" cy="504" r="88" fill="#24453a" opacity=".18"/>
+</svg>
