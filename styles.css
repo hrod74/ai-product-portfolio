@@ -1403,6 +1403,54 @@ dd {
   padding: 30px;
 }
 
+.before-rebuild-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(320px, 1.15fr);
+  align-items: start;
+  gap: 28px;
+}
+
+.case-study-image-frame {
+  position: relative;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper-soft);
+  padding: 10px;
+}
+
+.case-study-image-frame img {
+  width: 100%;
+  max-height: 520px;
+  border-radius: 6px;
+  object-fit: contain;
+  object-position: top center;
+}
+
+.case-study-image-frame span {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border: 1px solid rgba(223, 214, 200, 0.9);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--brick);
+  padding: 0.32rem 0.6rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.case-study-image-frame figcaption {
+  margin: 0;
+  padding: 12px 4px 2px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
 .case-study-block h2,
 .case-study-feature h2,
 .case-study-cta h2 {
@@ -1680,6 +1728,7 @@ dd {
 
   .project-case-intro,
   .project-quick-summary,
+  .before-rebuild-section,
   .case-study-grid.two-column,
   .role-ai-grid,
   .process-list {
@@ -1867,6 +1916,10 @@ dd {
   .case-study-cta,
   .project-quick-summary div {
     padding: 22px;
+  }
+
+  .case-study-image-frame img {
+    max-height: none;
   }
 
   .project-logo-card {
