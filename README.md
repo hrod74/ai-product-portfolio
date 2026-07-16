@@ -47,5 +47,6 @@ http://localhost:8000
 
 ## Notes
 
+- This repository is managed as part of the ProductSparkStudio product portfolio while remaining independently versioned and deployed.
 - Replace placeholder contact links in `index.html` with the final email, LinkedIn, and GitHub URLs.
 - Add the final resume PDF to `assets/resume/` and update the Resume button when ready.
